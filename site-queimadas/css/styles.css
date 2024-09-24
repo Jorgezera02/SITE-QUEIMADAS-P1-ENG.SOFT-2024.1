@@ -1,0 +1,144 @@
+/* Estilos globais */
+body {
+    font-family: 'Sofadi One', cursive;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #e0e6d0, #dbb7b7);
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Estilos para o cabeçalho e navegação */
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100px; /* Tamanho da logo */
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #9fe688;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Estilos de imagens nas seções */
+section img {
+    max-width: 40%; /* Limita o tamanho da imagem */
+    height: auto;
+    margin-top: 20px;
+    border: 5px solid #9a9378;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos da galeria */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    max-width: 470px; /* Tamanho das imagens da galeria */
+    height: auto;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: 50px;
+}
+
+/* Estilos para o formulário de contato */
+.contact-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    box-sizing: border-box
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #ffcc00;
+    box-shadow: 0px 0px 8px rgba(255, 204, 0, 0.5);
+}
+
+.contact-form button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ffa500;
+    transform: translateY(-2px);
+}
+
+.contact-form button:active {
+    background-color: #e69500;
+    transform: translateY(0);
+}
